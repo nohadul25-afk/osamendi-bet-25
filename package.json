@@ -1,0 +1,14 @@
+{
+  "name": "osamendi-bet-25",
+  "version": "1.0.0",
+  "description": "Osamendi Bet 25 - Premium Casino Platform",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd backend && npm start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
